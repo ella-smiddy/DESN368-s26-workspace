@@ -55,7 +55,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
-- **GitHub Profile:**  ⏳
+- **GitHub Profile:** https://github.com/ella-smiddy
 - **Workspace Repository:** [Add your repository URL here] ⏳
 - **Figma:** [Add your Figma username here] ⏳
 - **CodePen:** [Add your CodePen profile URL here] ⏳
