@@ -58,7 +58,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **GitHub Profile:** https://github.com/ella-smiddy
 - **Workspace Repository:** [Add your repository URL here] ⏳
 - **Figma:** ella.smiddy
-- **CodePen:** [Add your CodePen profile URL here] ⏳
+- **CodePen:** (https://codepen.io/smiddy-ella) 
 - **LiveCode:** [Add your LiveCode profile here] ⏳
 - **GitHub Student Pack:** [Confirm approval status here] ⏳
 
