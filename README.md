@@ -56,7 +56,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
 - **GitHub Profile:** https://github.com/ella-smiddy
-- **Workspace Repository:** [Add your repository URL here] ⏳
+- **Workspace Repository:** https://github.com/ella-smiddy/DESN368-s26-workspace
 - **Figma:** ella.smiddy
 - **CodePen:** (https://codepen.io/smiddy-ella) 
 - **GitHub Student Pack:** Got Denied, will try again later! 
