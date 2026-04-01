@@ -59,8 +59,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Workspace Repository:** [Add your repository URL here] ⏳
 - **Figma:** ella.smiddy
 - **CodePen:** (https://codepen.io/smiddy-ella) 
-- **LiveCode:** [Add your LiveCode profile here] ⏳
-- **GitHub Student Pack:** [Confirm approval status here] ⏳
+- **GitHub Student Pack:** Got Denied, will try again later! 
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README
