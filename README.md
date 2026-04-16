@@ -1,5 +1,4 @@
-# 🎉 Welcome to DESN368 CODE + DESIGN ONE!
-Travis Masingale · Spring 2026
+Welcome to my Workspace!
 
 **Welcome to DESN368 Web Design!**
 This is your course workspace — the place where all your code, designs, and projects live. By the end of the quarter, this repo becomes your portfolio.
