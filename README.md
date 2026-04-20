@@ -1,8 +1,7 @@
-# 🎉 Welcome to my Workspace!
-Ella Smiddy · Spring 2026
+# Welcome to my Portfolio - DESN 368! 🤩
+🌸Ella Smiddy · Spring 2026🌸
 
-**About**
-Hello! My name is Ella Smiddy. I am a design ,major at Eastern Washington University. This is the place where all my code, designs, and projects live. I am currently learning how to code for the first time.
+Hello! My name is Ella Smiddy. I am a design major at Eastern Washington University. This is the place where all my code, designs, and projects live. I am currently learning how to code for the first time!
 ---
 
 
