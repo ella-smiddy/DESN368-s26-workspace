@@ -1,0 +1,13 @@
+/* Center content container */
+main {
+  max-width: 800px; /* change this at will */
+  margin: 0 auto;
+  padding: 20px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
