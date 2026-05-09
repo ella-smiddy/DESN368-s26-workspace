@@ -1,0 +1,39 @@
+body{background-color: #7F6F95;
+text-align: center;}
+h1{
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+  background-image: url(https://www.svgheart.com/wp-content/uploads/2022/08/electric-guitar-silhouette_1295-429-min.png);
+  background-repeat: no-repeat;
+    background-position: center;
+      padding: 82px;
+ background-size: 950px;
+}
+dates{font-family:"Fugaz One",sans-serif;
+font-weight:400;
+font-style: normal;}
+h2{
+  font-family:"Fugaz One", sans-serif;
+    font-weight:400;
+    font-style:normal;
+  color: white;
+}
+p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: white;}
+.quote-block {
+    color: white;
+    font-family: "Inter", sans-serif;
+  background-color: black;
+  padding:20px;
+  font-size: 24px;}
+.dates{font-family: "Fugaz One", sans-serif;
+font-size: 50px;}
+.img-caption1{font-family:"Inter", sans-serif;
+color:white}
