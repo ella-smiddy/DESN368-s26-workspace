@@ -20,22 +20,11 @@ Hello! My name is Ella Smiddy. I am a design major at Eastern Washington Univers
 ---
 
 ## 🛠️ **My Toolkit**
-*Update these links as you complete each tool setup:*
 - **GitHub Profile:** https://github.com/ella-smiddy
 - **Workspace Repository:** https://github.com/ella-smiddy/DESN368-s26-workspace
 - **Figma:** ella.smiddy
 - **CodePen:** (https://codepen.io/smiddy-ella) 
-- **GitHub Student Pack:** Got Denied, will try again later! 
-
-### **How to Update Your Toolkit:**
-1. **Click the pencil icon** (✏️) at the top right of this README
-2. Replace the placeholder text with your actual profile information:
-   - Change `[Add your repository URL here]` → `https://github.com/YourUsername/your-repo-name`
-   - Change `[Add your Figma username here]` → your Figma username
-   - Change `[Add your CodePen profile URL here]` → `https://codepen.io/YourUsername`
-   - Change `[Confirm approval status here]` → `Approved` or `Pending` for GitHub Pack
-3. Scroll to bottom and click **"Commit changes"**
-4. Repeat this process each time you complete a new tool setup  
+- **GitHub Student Pack:** Pending... 
 
 ---
 
