@@ -1,1 +1,12 @@
-/* Add CSS Styling */
+.my-class{background-color:pink;
+font-family:verdana,sans-serif;}
+
+#my-id{color:blue;
+font-size:36px;
+}
+
+.my-class.cool-class{font-size:24px}
+
+#another-id{background-color:lightgreen;
+    font-size: 24px;
+    font-weight: bold;}
