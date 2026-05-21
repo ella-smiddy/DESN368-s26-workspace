@@ -12,7 +12,7 @@ h1{
       padding: 82px;
  background-size: 950px;
 }
-dates{font-family:"Fugaz One",sans-serif;
+.dates{font-family:"Fugaz One",sans-serif;
 font-weight:400;
 font-style: normal;}
 h2{
@@ -24,7 +24,7 @@ h2{
 p {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: regular;
   font-style: normal;
   color: white;}
 .quote-block {
