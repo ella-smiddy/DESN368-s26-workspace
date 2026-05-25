@@ -2,8 +2,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sorry Game Guide</title>
-  <link rel="stylesheet" href="../CSS/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Dhurjati&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Dhurjati&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,16 +15,17 @@
   <!-- THIS IS MY SIDE BAR -->
   <!-- THIS IS MY SIDE BAR -->
   <aside>
-    <nav>
+  <nav id="navbar">
+  <header>Sorry Game Guide</header>
       <div id="navigation-page">
         <div id="menu">
           <h2 id="menu-title">Menu</h2>
-          <p>CONTENTS</p>
-          <p>CARDS</p>
-          <p>GAME SETUP</p>
-          <p>OBJECTIVE</p>
-          <p>GAMEPLAY</p>
-          <p>MORE GAMES</p>
+          <a class="nav-link" href="#Contents">CONTENTS</a>
+<a class="nav-link" href="#Learning_the_Cards">CARDS</a>
+<a class="nav-link" href="#Game_Setup">GAME SETUP</a>
+<a class="nav-link" href="#Objective">OBJECTIVE</a>
+<a class="nav-link" href="#Gameplay">GAMEPLAY</a>
+<a class="nav-link" href="#More_Games">MORE GAMES</a>
         </div>
       </div>
         </nav>
@@ -34,134 +35,123 @@
   <!-- THIS IS THE MAIN CONTENT SECTION -->
   <!-- THIS IS THE MAIN CONTENT SECTION -->
 
-  <main>
-    <p class="caption"> The Classic Board Game of Sweet Revenge</p>
-    <div id="Main-Content">
- <!--CONTENTS SECTION-->
- <!--CONTENTS SECTION-->
- <!--CONTENTS SECTION-->
-      <section class="content-row">
+ <main id="main-doc">
+  <p class="caption">The Classic Board Game of Sweet Revenge</p>
 
-  <div class="text-content">
-    <h2>CONTENTS</h2>
+  <section class="main-section content-row" id="Contents">
+    <div class="text-content">
+      <header>
+        <h2>CONTENTS</h2>
+      </header>
+
+      <ul>
+        <li>game board</li>
+        <li>red(4), green(4), blue(4), yellow(4) pawns.</li>
+        <li>deck of cards</li>
+        <li>3 dice</li>
+      </ul>
+    </div>
+
+    <div class="cards-image">
+      <img src="https://snipboard.io/FmKi3O.jpg" alt="Sorry Game Cards">
+    </div>
+  </section>
+
+  <section class="main-section" id="Learning_the_Cards">
+    <header>
+      <h2>LEARNING THE CARDS</h2>
+    </header>
 
     <ul>
-      <li>game board</li>
-      <li>red(4), green(4), blue(4), yellow(4) pawns.</li>
-      <li>deck of cards</li>
-      <li>3 dice</li>
+      <li><b>1:</b> Move a pawn forward 1 space OR move one out of Start.</li>
+      <li><b>2:</b> Move a pawn forward 2 spaces OR move one out of Start.</li>
+      <li><b>3:</b> Move forward 3 spaces.</li>
+      <li><b>4:</b> Move backward 4 spaces.</li>
+      <li><b>5:</b> Move forward 5 spaces.</li>
+      <li><b>7:</b> Move forward 7 spaces.</li>
+      <li><b>8:</b> Move forward 8 spaces.</li>
+      <li><b>10:</b> Move forward 10 spaces OR move backward 1 space.</li>
+      <li><b>11:</b> Move forward 11 spaces OR switch places with an opponent's pawn.</li>
+      <li><b>12:</b> Move forward 12 spaces.</li>
+      <li><b>Sorry!:</b> Swap with an opponent and bump them back to Start.</li>
     </ul>
-  </div>
 
-  <div class="cards-image">
-    <img src="https://snipboard.io/FmKi3O.jpg" alt="Sorry Game Cards">
-  </div>
-        </div>
-</section>
-     
- <!--LEARNING SECTION-->
- <!--LEARNING SECTION-->  
- <!--LEARNING SECTION-->
-      <section id="learning">
-        <h2>LEARNING THE CARDS</h2>
-        <ul>
-          <li><b>1:</b> Move a pawn forward 1 space OR move one out of Start.</li>
-          <li><b>2:</b> Move a pawn forward 2 spaces OR move one out of Start.</li>
-          <li><b>3:</b> Move forward 3 spaces.</li>
-          <li><b>4:</b> Move backward 4 spaces.</li>
-          <li><b>5:</b> Move forward 5 spaces. </li>
-          <li><b>7:</b> Move forward 7 spaces.</li>
-          <li><b>8:</b> Move forward 8 spaces.</li>
-          <li><b>10:</b> Move forward 10 spaces OR move backward 1 space.</li>
-          <li><b>11:</b> Move forward 11 spaces OR switch places with an opponent's pawn on the main track.</li>
-          <li><b>12:</b> Move forward 12 spaces.</li>
-          <li><b>Sorry!:</b> Take a pawn from your Start and swap it with any opponent's pawn on the board, bumping them back to start. If you have no pawns in "Start" move backward 4 spaces instead.</li>
-        </ul>
-      </section>
-<!--GAME SETUP SECTION-->
-<!--GAME SETUP SECTION-->
-<!--GAME SETUP SECTION-->
-      <section id="game-setup">
-        <h2>GAME SETUP</h2>
-          <p>Each player chooses a color and puts their 4 pawns in their matching Start circle. Place the card deck face down.</p>
-          <p>
-            <b>Going First:</b> The youngest player goes first, and turns move clockwise.</p>
-          <p>
-            <b>Drawing Cards:</b> On your turn, draw the top card, follow its instructions, and place it in a discard pile.</p>
-          <p>
-            <b>Getting Out of Start:</b> You can only move a pawn out of the Start area if you draw a 1, a 2, or a "Sorry!" card.</p>
-      </section>
-<!--OBJECTIVE SECTION-->
-<!--OBJECTIVE SECTION-->
-<!--OBJECTIVE SECTION-->
-     <section id="objective">
+    <pre><code>Draw card → follow card → move pawn</code></pre>
+  </section>
 
-  <div class="objective-row">
+  <section class="main-section" id="Game_Setup">
+    <header>
+      <h2>GAME SETUP</h2>
+    </header>
 
-    <div class="objective-text">
-      <h2>OBJECTIVE</h2>
+    <p>Each player chooses a color and puts their 4 pawns in their matching Start circle.</p>
+    <p><b>Going First:</b> The youngest player goes first, and turns move clockwise.</p>
+    <p><b>Drawing Cards:</b> Draw the top card, follow its instructions, and discard it.</p>
+    <p><b>Getting Out of Start:</b> You need a 1, 2, or Sorry! card.</p>
 
-      <p>The goal of the game is simple.</p>
+  </section>
 
-      <p>Move all four pawns from Start to Home by drawing cards. The first player to do so, wins!</p>
+  <section class="main-section" id="Objective">
+    <div class="objective-row">
+      <div class="objective-text">
+        <header>
+          <h2>OBJECTIVE</h2>
+        </header>
+
+        <p>The goal of the game is simple.</p>
+        <p>Move all four pawns from Start to Home. The first player to do so wins!</p>
+
+      </div>
+
+      <div class="box-image">
+        <img src="https://snipboard.io/ALyqno.jpg" alt="Sorry game box">
+      </div>
     </div>
+  </section>
 
-    <div class="box-image">
-      <img src="https://snipboard.io/ALyqno.jpg" alt="box image">
-    </div>
-  </div>
-</section>
-<!--GAMEPLAY SECTION-->
-<!--GAMEPLAY SECTION-->
-<!--GAMEPLAY SECTION-->
-      <section id="gameplay">
-        <h2>GAMEPLAY</h2>
-        <p><b>Goal:</b><br>
-          Move all 4 of your pawns from Start to Home before everyone else.</p>
-        <p><b>Setup</b></p>
+  <section class="main-section" id="Gameplay">
+    <header>
+      <h2>GAMEPLAY</h2>
+    </header>
+
+    <p><b>Goal:</b><br>Move all 4 of your pawns from Start to Home before everyone else.</p>
+
+    <p><b>Setup</b></p>
     <ul>
-          <li>Each player picks a color.</li>
-          <li>Put all 4 pawns in your Start area.</li>
-          <li>Shuffle the cards.</li>
-          </ul>
-        <p><b>Taking Turns</b></p>
-<ol>
-  <li>Draw one card.</li>
-  <li>Follow the card’s instructions.</li>
-  <li>Move one of your pawns.</li>
-  </ol>
-        <p><b>Basic Rules</b></p>
-  <ol>
-    <li>You need a 1 or 2 card to leave Start.</li>
-    <li>If you land on another player’s pawn, they go back to Start.</li>
-    <li>Pawns move around the board toward their Home space.</li>
+      <li>Each player picks a color.</li>
+      <li>Put all 4 pawns in your Start area.</li>
+      <li>Shuffle the cards.</li>
+    </ul>
+
+    <p><b>Taking Turns</b></p>
+    <ol>
+      <li>Draw one card.</li>
+      <li>Follow the card’s instructions.</li>
+      <li>Move one of your pawns.</li>
     </ol>
-    <p><b>Special Cards</b></p>
-<ul>
-  <li><i>Sorry! Card:</i> Replace one of your opponent’s pawns with one from your Start.</li>
-  <li><i>Slide Spaces:</i> If you land on the start of another color’s slide, slide to the end and bump any pawns off the slide back to Start.</li>
-        </ul>
-        <p><b>Winning</b></p>
-<p>The first player to get all 4 pawns Home wins!</p>
-      </section> 
-<!--MORE GAMES SECTION-->
-<!--MORE GAMES SECTION-->
-<!--MORE GAMES SECTION-->
-      <section id= "more-games">
-        <h2>MORE GAMES FROM HASBRO</h2>
 
-        <h3 id="monopoly">Monopoly</h3>
-        <img src="https://snipboard.io/QSXLdt.jpg" alt="Monopoly Board GAme">
-        <h3 id="trouble">Trouble</h3>
-        <img src="https://snipboard.io/4eOFtW.jpg" alt="Trouble Board Game">
-        <h3 id="clue">Clue</h3>
-        <img src="https://snipboard.io/PONgSY.jpg" alt="Clue Board Game">
-      </section>
+  </section>
 
-      </main>
+  <section class="main-section" id="More_Games">
+    <header>
+      <h2>MORE GAMES FROM HASBRO</h2>
+    </header>
 
-        <footer>
-          <p>2026 Ella Smiddy</p>
-        </footer>
+    <h3 id="monopoly">Monopoly</h3>
+    <img src="https://snipboard.io/QSXLdt.jpg" alt="Monopoly board game">
 
-</body>
+    <h3 id="trouble">Trouble</h3>
+    <img src="https://snipboard.io/4eOFtW.jpg" alt="Trouble board game">
+
+    <h3 id="clue">Clue</h3>
+    <img src="https://snipboard.io/PONgSY.jpg" alt="Clue board game">
+
+  </section>
+</main>
+  <footer>
+    <p><i>2026 Ella Smiddy</i></p>
+
+  <a href="#Contents">Back to Top</a>
+  <a href="case-study.html">Case Study</a>
+</footer>
+</body> 
