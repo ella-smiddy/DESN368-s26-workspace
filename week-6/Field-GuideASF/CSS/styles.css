@@ -5,11 +5,9 @@
   color: white;
   
   background-image: url(https://snipboard.io/81hdD9.jpg);
-  background-size: contain;
-  background-position: top center;
-  background-repeat: no-repeat;
-  min-height: 370px;
-  padding: 40px 0;
+  background-size: cover;
+  background-position: center;
+  height: 370px;
 
   display: flex;
   justify-content:center;
@@ -35,26 +33,27 @@ body {
 color:#FD152E;
 text-align: center;}
 
-#menu-title{color: white;
+#menu-title {color: white;
   font-family: "Dhurjati", sans-serif;
   font-weight: 300px;
   font-style: normal;
   font-size: 40px;
 }
 
-#menu p {
-  font-family: "Dela Gothic One", sans-serif;
-  color: white;
-  font-size: 12px;
-  margin: 28px 0;
-}
 main {
   margin-left: 155px;
   padding: 10px 40px;
   max-width:900px;
 }
 
-
+#navbar a {
+  font-family: "Dela Gothic One", sans-serif;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
+  margin: 28px 0;
+}
 aside
 {color: white;
   background-color: #5CA131;
@@ -87,9 +86,11 @@ aside
   flex: 1;
 }
 
-.cards-image img {
-  width: 300px;
-}
+.cards-image img
+   {width: 100%;}
+
+  .box-image img {
+    width: 100%;}
 
 #contents li {line-height:1.5;}
   
@@ -147,3 +148,12 @@ footer {
 background-color: #079CEB;
 background-size:cover;
 text-align:right;}
+
+footer a {
+  background-color: white;
+  color: #079CEB;
+  padding: 8px 12px;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 8px;
+}
