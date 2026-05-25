@@ -5,9 +5,11 @@
   color: white;
   
   background-image: url(https://snipboard.io/81hdD9.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 370px;
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 370px;
+  padding: 40px 0;
 
   display: flex;
   justify-content:center;
