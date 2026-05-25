@@ -1,0 +1,147 @@
+.hero
+{font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  
+  background-image: url(https://snipboard.io/81hdD9.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 370px;
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+body {
+
+  margin:0;
+  font-family: "Inter", sans-serif;
+  border: 3px solid #079CEB
+}
+  
+.text-content{
+  line-height:2;}
+
+.caption
+{font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: bold;
+  font-size:20px;
+color:#FD152E;
+text-align: center;}
+
+#menu-title{color: white;
+  font-family: "Dhurjati", sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#menu p {
+  font-family: "Dela Gothic One", sans-serif;
+  color: white;
+  font-size: 12px;
+  margin: 28px 0;
+}
+main {
+  margin-left: 155px;
+  padding: 10px 40px;
+  max-width:900px;
+}
+
+
+aside
+{color: white;
+  background-color: #5CA131;
+  font-family: "Dhurjati", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  position: fixed;
+  left: 14px;
+  top: 10px;
+  width: 150px;
+  border-radius:16px;
+  text-align: center;
+  padding-bottom: 20px;
+
+  
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.content-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.cards-image img {
+  width: 300px;
+}
+
+#contents li {line-height:1.5;}
+  
+.objective-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;}
+
+.box-image img {
+  width: 300px;}
+
+h2
+{font-family: "Dhurjati", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+color: #079CEB}
+
+h3{  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;}
+
+
+#monopoly{
+  display: table;
+  background-color: #FD152E;
+  color: white;
+  padding: 2px 6px;
+  font-style: italic;}
+#trouble{
+  display: table;
+  background-color: #FD152E;
+  color: white;
+  padding: 2px 6px;
+  font-style: italic;
+}
+
+#clue{
+  display: table;
+  background-color: #FD152E;
+  color: white;
+  padding: 2px 6px;
+  font-style: italic;
+}
+
+footer {
+  padding: 10px 40px;
+  
+ font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  color: white;
+
+background-color: #079CEB;
+background-size:cover;
+text-align:right;}
