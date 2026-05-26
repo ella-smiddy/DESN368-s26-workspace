@@ -1,0 +1,28 @@
+h1{
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #079CEB;
+}
+
+h2{
+  font-family: "Dhurjati", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+color: #079CEB
+}
+
+p{
+  font-family: "inter",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer a {
+  background-color: #079CEB;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 8px;
+}
