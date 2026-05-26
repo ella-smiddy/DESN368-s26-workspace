@@ -1,17 +1,21 @@
-.hero
-{font-family: "Dela Gothic One", sans-serif;
+.hero {
+  font-family: "Dela Gothic One", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: white;
-  
+
   background-image: url(https://snipboard.io/81hdD9.jpg);
   background-size: cover;
-  background-position: center;
-  height: 370px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  height: auto;
+  padding: 4rem 1rem;
 
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 body {
