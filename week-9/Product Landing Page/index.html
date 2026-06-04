@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORM Product Landing Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header id="header">
+    <a class="logo-link" href="#hero" aria-label="FORM home">
+      <img id="header-img" src="images/image 3.png" alt="FORM logo">
+    </a>
+
+    <nav id="nav-bar" aria-label="Main navigation">
+      <a class="nav-link" href="#features">shop</a>
+      <a class="nav-link" href="#video-section">skincare</a>
+      <a class="nav-link" href="#blush-section">makeup</a>
+      <a class="nav-link" href="#data">sets</a>
+      <a class="nav-link" href="#about">about</a>
+    </nav>
+
+    <div class="nav-icons" aria-label="Shopping icons">
+      <a href="#" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.5" cy="10.5" r="6.5"></circle>
+          <line x1="15.5" y1="15.5" x2="21" y2="21"></line>
+        </svg>
+      </a>
+
+      <a href="#" aria-label="Profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 21c1.7-4.5 5-6.5 8-6.5s6.3 2 8 6.5"></path>
+        </svg>
+      </a>
+
+      <a href="#" aria-label="Shopping bag">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 8h12l-1 13H7L6 8Z"></path>
+          <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-copy">
+        <h1>Glow<br>Without<br>The Effort.</h1>
+        <p>Skincare + makeup for everyday.</p>
+        <div class="hero-buttons">
+          <a class="pill-button" href="#features">shop essentials</a>
+          <a class="pill-button" href="#data">browse sets</a>
+        </div>
+      </div>
+
+      <article class="hero-product-card">
+        <div class="mini-card-top">
+          <h2>barrier cream</h2>
+          <span>new</span>
+        </div>
+        <img src="images/image 1.png" alt="FORM barrier cream jar">
+        <div class="mini-card-bottom">
+          <p>$48<br><small>nourish, protect, restore.</small></p>
+          <p>★★★★★<br><small>(999)</small></p>
+        </div>
+      </article>
+    </section>
+
+    <section id="features">
+      <h2 class="visually-hidden">Featured products</h2>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <span class="tag">the kit</span>
+          <img src="images/image 5.png" alt="FORM skincare kit with cleanser, serum, tube, and cream jar">
+          <div class="product-info">
+            <p class="price">$115</p>
+            <p>★★★★★<br><small>(1.5k)</small></p>
+          </div>
+          <h3>the set for everyday, glossy skin</h3>
+        </article>
+
+        <article class="product-card">
+          <span class="tag">patch it</span>
+          <img src="images/image 8.png" alt="FORM colorful skincare patches and pouch">
+          <div class="product-info">
+            <p class="price">$45</p>
+            <p>★★★★★<br><small>(1.2k)</small></p>
+          </div>
+          <h3>cover imperfections while accessorizing.</h3>
+        </article>
+
+        <article class="product-card">
+          <span class="tag">flush kit</span>
+          <img src="images/image 10.png" alt="FORM Flush Kit with lip pencil, blush jar, and makeup tube">
+          <div class="product-info">
+            <p class="price">$63</p>
+            <p>★★★★★<br><small>(3.1k)</small></p>
+          </div>
+          <h3>the perfect lip combo with a blush to tie it together.</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="split-section">
+      <article class="about-card">
+        <h2>From consciously-sourced ingredients to packaging made with post-consumer recycled materials, we’re committed to MINDFUL SKINCARE.</h2>
+        <a class="dark-pill" href="#contact">our footprint</a>
+        <ul class="footprint-links">
+          <li><a href="#contact">mission</a></li>
+          <li><a href="#contact">philanthropy</a></li>
+          <li><a href="#contact">sustainability</a></li>
+        </ul>
+      </article>
+
+      <article id="blush-section" class="blush-card">
+        <a class="tiny-pill" href="#features">shop</a>
+        <img src="images/image 11.png" alt="FORM cream blush shade range">
+      </article>
+    </section>
+
+    <section id="video-section">
+      <h2 class="visually-hidden">FORM skincare video</h2>
+      <video id="video" controls autoplay muted loop playsinline>
+        <source src="images/6663340-uhd_4096_1974_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section id="feature-story">
+      <article class="story-card">
+        <h2>one of everything really good</h2>
+        <p>At form, our philosophy is to make one of everything really good. To us, that means a collection of intentional, high-performance essentials you reach for everyday. The ones you love, rely on, and always come back to for ultimate barrier nourishment, tint, and glow.</p>
+        <a class="dark-pill" href="#features">shop</a>
+        <img src="images/image 13.png" alt="FORM skincare and makeup collection with yellow pouch">
+      </article>
+    </section>
+
+    <section id="data">
+      <h2>product guide</h2>
+      <div class="table-scroll">
+        <table id="data-table">
+          <thead>
+            <tr>
+              <th scope="col">product</th>
+              <th scope="col">best for</th>
+              <th scope="col">price</th>
+              <th scope="col">finish</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>the kit</td>
+              <td>everyday glossy skin</td>
+              <td>$115</td>
+              <td>hydrated glow</td>
+            </tr>
+            <tr>
+              <td>barrier cream</td>
+              <td>nourish + protect</td>
+              <td>$48</td>
+              <td>soft moisture</td>
+            </tr>
+            <tr>
+              <td>patch it</td>
+              <td>blemish care</td>
+              <td>$45</td>
+              <td>playful color</td>
+            </tr>
+            <tr>
+              <td>flush kit</td>
+              <td>lip + blush combo</td>
+              <td>$63</td>
+              <td>dewy flush</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-text">
+        <h2>Join FORM to start the journey to an effortless glow.</h2>
+        <p>Fill your inbox with tips, tricks, and exclusive content.</p>
+      </div>
+
+      <form id="contact-form" action="https://example.com" method="post">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button id="submit" type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <img class="footer-logo" src="images/image 12.png" alt="Large FORM logo">
+
+    <div class="footer-bottom">
+      <p>Join FORM to start the journey to an effortless glow.</p>
+      <div class="footer-links">
+        <a href="#features">shop</a>
+        <a href="#video-section">skincare</a>
+        <a href="#blush-section">makeup</a>
+        <a href="#about">about</a>
+        <a href="#contact">support</a>
+      </div>
+    </div>
+
+    <p class="copyright">© FORM 2026</p>
+  </footer>
+</body>
+</html>
