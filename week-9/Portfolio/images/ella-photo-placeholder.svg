@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" role="img" aria-labelledby="title desc">
+  <title id="title">Photo placeholder</title>
+  <desc id="desc">A cream placeholder that says replace this image with a photo of yourself.</desc>
+  <rect width="800" height="880" fill="#fff9ec"/>
+  <rect x="60" y="60" width="680" height="760" rx="30" fill="#23305b" opacity="0.08"/>
+  <circle cx="400" cy="320" r="120" fill="#f0bebd"/>
+  <path d="M190 735c35-150 155-235 210-235s175 85 210 235" fill="#08444f" opacity="0.9"/>
+  <text x="400" y="785" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#23305b">replace with your photo</text>
+</svg>
